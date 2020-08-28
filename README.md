@@ -1,2 +1,2 @@
-# mobile-demos
-DBR mobile demos
+# mobile-samples
+DBR mobile samples
