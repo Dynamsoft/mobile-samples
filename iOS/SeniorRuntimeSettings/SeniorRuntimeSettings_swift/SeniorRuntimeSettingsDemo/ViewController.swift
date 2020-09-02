@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 import DynamsoftBarcodeReader
 //you can init DynamsoftBarcodeReader with a license or licenseKey
-let kLicense    = "f0068MgAAAA+40FVhzeKl1lpWYfW+20pAZiEB8k2R+f0F+7zllNN+yGy7KL9GyF3X5n+1bkwOu/wIw9aWGiqAvCBZM926wAI="
+let kLicense    = "Put your license here"
 let kLicenseKey = "Put your license key here"
 
 class ViewController: UIViewController {

@@ -53,10 +53,9 @@ class  DbrManager: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate,DBRSer
         var err1:NSError?
         var err2:NSError?
         var err3:NSError?
-        barcodeReader.setModeArgument("BinarizationModes", index: 0, argumentName: "EnableFillBinaryVacancy", argumentValue: "1", error: &err1)
-        barcodeReader.setModeArgument("BinarizationModes", index: 0, argumentName: "BlockSizeX", argumentValue: "20", error: &err2)
-        barcodeReader.setModeArgument("BinarizationModes", index: 0, argumentName: "BlockSizeY", argumentValue: "20", error: &err3)
-        barcodeReader.setModeArgument("BinarizationModes", index: 0, argumentName: "ThreshValueCoefficient", argumentValue: "10", error: nil)
+        barcodeReader.setModeArgument("BinarizationModes", index: 0, argumentName: "EnableFillBinaryVacancy", argumentValue: "0", error: &err1)
+        barcodeReader.setModeArgument("BinarizationModes", index: 0, argumentName: "BlockSizeX", argumentValue: "81", error: &err2)
+        barcodeReader.setModeArgument("BinarizationModes", index: 0, argumentName: "BlockSizeY", argumentValue: "81", error: &err3)
         
 //        let blockSizex  = barcodeReader.getModeArgument("BinarizationModes", index: 0, argumentName: "BlockSizeX", error: nil)
 //        let blockSizey  = barcodeReader.getModeArgument("BinarizationModes", index: 0, argumentName: "BlockSizeY", error: nil)
